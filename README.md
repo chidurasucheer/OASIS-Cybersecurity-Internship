@@ -1,30 +1,9 @@
 # OASIS-Cybersecurity-Internship
-"Submission of cybersecurity tasks for the Oasis Infobyte Internship program, featuring network scanning, firewall configuration, and vulnerability analysis."
-Basic Network Scanning with Nmap 
+ Task 1: Basic Network Scanning with Nmap
+Objective: Identify open ports and services on a local machine.
+Tool: Nmap.
+Outcome: Performed a scan on 127.0.0.1 and analyzed the service versions and security implications.
 
-Objective
-Perform a network scan to identify open ports and services using Nmap.
+Task 2: Basic Firewall Configuration with UFW ObjectiveSet up a basic firewall using UFW on a Linux system to allow SSH and deny HTTP traffic.Configuration Summary* Rules Applied: Allowed port 22 (SSH) and denied port 80 (HTTP).
 
-
-Findings 
-
-
-Target: Localhost (127.0.0.1) 
-
-
-Open Ports: No open ports were detected during the local scan. 
-
-
-Significance: A scan with no open ports indicates that the local machine is not currently exposing any services to the network, which is a secure default state.
-
-
-Deliverables 
-
-
-nmap_scan_results.txt: Contains the raw terminal output of the scan.
-
-
-Screenshot: Displays the execution of the Nmap command.
-
-
-Demo Video: A screen recording showing the scan in real-time.
+Status: Active and verified via ufw status verbose.Deliverables* ufw_configuration.sh: Shell script with configuration commands.ufw_status_results.txt: Terminal output showing active rules.
