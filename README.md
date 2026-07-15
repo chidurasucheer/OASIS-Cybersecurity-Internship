@@ -1,4 +1,4 @@
-# OASIS-Cybersecurity-Internship
+# Cybersecurity-Internship
 # Task 1: Basic Network Scanning with Nmap
 Objective: Identify open ports and services on a local machine.
 Tool: Nmap.
